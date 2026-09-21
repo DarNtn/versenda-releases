@@ -32,7 +32,7 @@ aplicación para comprobar y verificar actualizaciones.
 - Biblioteca de fondos con imágenes, videos y recursos importados.
 - Reproducción de videos, páginas web y contenido multimedia en el Visor.
 - Reproducción de archivos locales de audio y video con controles integrados.
-- Dinámicas bíblicas participativas con tableros proyectados, puntajes y bancos de preguntas.
+- Dinámicas bíblicas participativas con tableros responsivos, tamaños configurables, puntajes iniciales y bancos de preguntas.
 - Notas, anuncios programados, reloj, cronómetro y cuenta regresiva.
 - Ventana de presentación independiente con estilos, transiciones y control del contenido.
 - Descarga de recursos bíblicos adicionales.
