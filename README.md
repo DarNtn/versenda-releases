@@ -28,10 +28,10 @@ aplicación para comprobar y verificar actualizaciones.
 
 - Consulta de Biblias instaladas, navegación por libro, capítulo y versículo.
 - Concordancia y búsqueda de palabras o frases en las Escrituras.
-- Gestión de cancioneros, letras, favoritos y presentación por estrofas.
+- Creación, importación y exportación de cancioneros, con navegación de estrofas por teclado.
 - Biblioteca de fondos con imágenes, videos y recursos importados.
 - Reproducción de videos, páginas web y contenido multimedia en el Visor.
-- Reproducción de archivos locales de audio y video con controles integrados.
+- Reproducción de archivos locales de audio y video con directorios actualizables y nuevos controles.
 - Dinámicas bíblicas participativas con tableros responsivos, tamaños configurables, puntajes iniciales y bancos de preguntas.
 - Notas, anuncios programados, reloj, cronómetro y cuenta regresiva.
 - Ventana de presentación independiente con estilos, transiciones y control del contenido.
