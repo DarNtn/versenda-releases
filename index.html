@@ -12,23 +12,18 @@
     <link rel="icon" href="assets/versenda-icon.png" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="brand.css" />
+    <script src="site.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header">
       <nav class="container nav" aria-label="Navegación principal">
         <a class="brand" href="./" aria-label="Versenda, inicio"
-          ><img
-            src="assets/versenda-logo.png"
-            width="180"
-            height="60"
-            alt="Versenda"
+          ><img src="assets/versenda-logo.png" width="180" height="60" alt="Versenda"
         /></a>
         <div class="nav-links">
-          <a href="#funciones">Funciones</a
-          ><a href="#cuenta">Cuenta y respaldo</a
-          ><a href="privacidad.html">Privacidad</a
-          ><a href="#soporte">Soporte</a>
+          <a href="#funciones">Funciones</a><a href="#cuenta">Cuenta y respaldo</a
+          ><a href="privacidad.html">Privacidad</a><a href="#soporte">Soporte</a>
         </div>
       </nav>
     </header>
@@ -38,22 +33,20 @@
           <p class="eyebrow">Aplicación gratuita para Windows</p>
           <h1>La Biblia en tu pantalla.</h1>
           <p class="lead">
-            Prepara y controla presentaciones bíblicas y multimedia desde un
-            solo lugar. Versenda está pensado para iglesias, reuniones y eventos
-            donde el contenido debe estar listo para mostrarse con claridad.
+            Prepara y controla presentaciones bíblicas y multimedia desde un solo lugar. Versenda
+            está pensado para iglesias, reuniones y eventos donde el contenido debe estar listo para
+            mostrarse con claridad.
           </p>
           <div class="actions">
             <a
               class="button button-primary"
               href="https://github.com/DarNtn/versenda-releases/releases/latest"
               >Ver última versión en GitHub</a
-            ><a class="button button-secondary" href="#funciones"
-              >Conocer la aplicación</a
-            >
+            ><a class="button button-secondary" href="#funciones">Conocer la aplicación</a>
           </div>
           <p class="micro">
-            En <strong>Assets</strong>, selecciona el instalador para Windows de
-            64 bits cuyo nombre termina en <code>x64-setup.exe</code>.
+            En <strong>Assets</strong>, selecciona el instalador para Windows de 64 bits cuyo nombre
+            termina en <code>x64-setup.exe</code>.
           </p>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -68,60 +61,281 @@
       <section class="band" id="funciones">
         <div class="container section-space">
           <p class="eyebrow">Qué puedes hacer</p>
-          <h2>Prepara el contenido y controla la proyección</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>Biblias y búsqueda</h3>
+          <h2>Conoce cada herramienta dentro de Versenda</h2>
+          <p class="showcase-intro">
+            Recorre los módulos funcionales con capturas reales de la aplicación. Cada imagen
+            muestra el área de trabajo y su vista previa, sin la barra de título de Windows.
+          </p>
+          <div
+            class="showcase"
+            data-carousel
+            tabindex="0"
+            aria-label="Galería de funciones de Versenda"
+          >
+            <div class="showcase-toolbar">
               <p>
-                Consulta las Biblias instaladas por libro, capítulo y versículo.
-                Busca palabras o frases con la concordancia y descarga versiones
-                adicionales cuando estén disponibles.
+                <strong data-carousel-status>1 de 9</strong
+                ><span>Explora la aplicación módulo por módulo</span>
               </p>
-            </article>
-            <article class="card">
-              <h3>Canciones</h3>
-              <p>
-                Crea, importa y exporta cancioneros, organiza letras y favoritos,
-                y navega por las estrofas con el teclado durante la presentación.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Fondos y multimedia</h3>
-              <p>
-                Usa imágenes, videos y recursos importados como fondos.
-                Reproduce archivos locales con directorios actualizables, videos de YouTube
-                y páginas web, y controla cómo se publican los videos en el Visor.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Notas y anuncios</h3>
-              <p>
-                Prepara notas y anuncios programados. Añade reloj, cronómetro o
-                cuenta regresiva según las necesidades de la reunión.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Salida independiente</h3>
-              <p>
-                Controla una ventana de presentación separada de la interfaz de
-                trabajo y ajusta estilos, transiciones y contenido.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Dinámicas bíblicas</h3>
-              <p>
-                Dirige 100 Samaritanos dicen y ¿Quién quiere ser bendecido? con
-                tableros responsivos, tamaños configurables, puntajes iniciales,
-                participantes, comodines y bancos de preguntas propios.
-              </p>
-            </article>
-            <article class="card">
-              <h3>Actualizaciones</h3>
-              <p>
-                Consulta nuevas versiones desde la aplicación, revisa sus notas
-                y descarga instaladores firmados sin perder tus datos locales.
-              </p>
-            </article>
+              <div class="showcase-arrows">
+                <button type="button" data-carousel-prev aria-label="Captura anterior">←</button>
+                <button type="button" data-carousel-next aria-label="Captura siguiente">→</button>
+              </div>
+            </div>
+            <div class="showcase-viewport">
+              <div class="showcase-track" data-carousel-track aria-live="off">
+                <article class="feature-slide" data-carousel-slide>
+                  <div class="feature-copy">
+                    <span class="feature-number">01</span>
+                    <h3>Inicio y control en vivo</h3>
+                    <p>
+                      Accede rápidamente a cada herramienta y confirma en todo momento qué verá la
+                      audiencia.
+                    </p>
+                    <ul>
+                      <li>Vista previa permanente del Visor</li>
+                      <li>Ajustes rápidos de iluminación y texto</li>
+                      <li>Accesos directos a módulos y favoritos</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/inicio.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/inicio.webp"
+                      width="1280"
+                      height="800"
+                      alt="Pantalla de inicio de Versenda con accesos a módulos y vista previa del Visor"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">02</span>
+                    <h3>Concordancia bíblica</h3>
+                    <p>
+                      Encuentra palabras o frases en toda la Biblia y abre el pasaje dentro de su
+                      contexto.
+                    </p>
+                    <ul>
+                      <li>Búsqueda por toda la Biblia, Antiguo o Nuevo Testamento</li>
+                      <li>Resultados resaltados y paginados</li>
+                      <li>Publicación inmediata del versículo elegido</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/concordancia.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/concordancia.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Concordancia de Versenda con resultados para la palabra amor y el pasaje abierto"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">03</span>
+                    <h3>Biblia</h3>
+                    <p>
+                      Navega por libros, capítulos y versículos mientras preparas el contenido que
+                      se proyectará.
+                    </p>
+                    <ul>
+                      <li>Versiones bíblicas intercambiables</li>
+                      <li>Historial y versículos guardados</li>
+                      <li>Indicador del texto publicado en el Visor</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/biblia.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/biblia.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Módulo Biblia con Juan capítulo 3 y el versículo 16 publicado"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">04</span>
+                    <h3>Cancionero</h3>
+                    <p>
+                      Organiza el repertorio de la congregación y prepara las letras para una
+                      presentación fluida.
+                    </p>
+                    <ul>
+                      <li>Cancioneros, estilos y búsqueda</li>
+                      <li>Edición, favoritos e importación</li>
+                      <li>Navegación por estrofas durante la reunión</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/cancionero.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/cancionero.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Cancionero de Versenda con una canción seleccionada y sus controles"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">05</span>
+                    <h3>Fondos</h3>
+                    <p>
+                      Prepara la apariencia del Visor con una colección visual ordenada y fácil de
+                      recorrer.
+                    </p>
+                    <ul>
+                      <li>Imágenes y videos por colecciones</li>
+                      <li>Carga local, por URL o búsqueda web</li>
+                      <li>Ajuste, sonido, repetición y favoritos</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/fondos.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/fondos.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Galería de fondos de Versenda con varias imágenes bíblicas disponibles"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">06</span>
+                    <h3>Reproductor multimedia</h3>
+                    <p>
+                      Reúne YouTube, archivos locales, páginas web y elementos superpuestos en un
+                      único panel.
+                    </p>
+                    <ul>
+                      <li>Cola de YouTube con controles sincronizados</li>
+                      <li>Audio y video local con listas y favoritos</li>
+                      <li>Publicación o retiro del video sin perder el avance</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/reproductor.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/reproductor.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Reproductor de Versenda con cola de YouTube, multimedia local y controles adicionales"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">07</span>
+                    <h3>Dinámicas bíblicas</h3>
+                    <p>
+                      Dirige juegos participativos desde el panel de control y publica un tablero
+                      adaptado al Visor.
+                    </p>
+                    <ul>
+                      <li>100 Samaritanos dicen y ¿Quién quiere ser bendecido?</li>
+                      <li>Equipos, puntajes, rondas y comodines</li>
+                      <li>Bancos de preguntas personalizables</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/dinamicas.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/dinamicas.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Dinámica 100 Samaritanos dicen en curso con tablero, equipos y puntajes"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">08</span>
+                    <h3>Notas y anuncios</h3>
+                    <p>
+                      Conserva textos de apoyo y comunica avisos en la parte inferior de la
+                      proyección.
+                    </p>
+                    <ul>
+                      <li>Notas listas para publicar</li>
+                      <li>Anuncios programados por hora</li>
+                      <li>Tamaño y duración del recorrido configurables</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/notas-anuncios.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/notas-anuncios.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Módulo de notas y anuncios con un aviso programado para una reunión"
+                  /></a>
+                </article>
+                <article class="feature-slide" data-carousel-slide aria-hidden="true">
+                  <div class="feature-copy">
+                    <span class="feature-number">09</span>
+                    <h3>Gestión de recursos</h3>
+                    <p>
+                      Administra las traducciones bíblicas disponibles y déjalas listas para
+                      trabajar sin conexión.
+                    </p>
+                    <ul>
+                      <li>Estado de instalación de cada Biblia</li>
+                      <li>Descarga de versiones adicionales</li>
+                      <li>Uso local sin conexión después de instalar</li>
+                    </ul>
+                  </div>
+                  <a
+                    class="feature-shot"
+                    href="assets/screenshots/recursos.webp"
+                    target="_blank"
+                    rel="noopener"
+                    ><img
+                      src="assets/screenshots/recursos.webp"
+                      width="1280"
+                      height="800"
+                      loading="lazy"
+                      alt="Gestión de recursos con Biblias instaladas y otras disponibles para descargar"
+                  /></a>
+                </article>
+              </div>
+            </div>
+            <div class="showcase-progress" aria-hidden="true">
+              <span data-carousel-progress></span>
+            </div>
+            <div
+              class="showcase-pagination"
+              data-carousel-pagination
+              aria-label="Elegir captura"
+            ></div>
           </div>
         </div>
       </section>
@@ -131,19 +345,17 @@
             <p class="eyebrow">Cuenta opcional</p>
             <h2>Úsala como Invitado o vincula tu cuenta</h2>
             <p>
-              Versenda abre directamente en la pantalla principal. No necesitas
-              iniciar sesión para usar las funciones locales. Si vinculas
-              Google, la aplicación usa el espacio privado de la aplicación en
-              Google Drive para respaldar configuraciones y contenido creado o
+              Versenda abre directamente en la pantalla principal. No necesitas iniciar sesión para
+              usar las funciones locales. Si vinculas Google, la aplicación usa el espacio privado
+              de la aplicación en Google Drive para respaldar configuraciones y contenido creado o
               descargado por ti.
             </p>
             <p>
-              Con la aplicación abierta y conexión a Internet, los cambios se
-              sincronizan automáticamente. Puedes seguir trabajando sin
-              conexión; los cambios pendientes se revisan cuando la red vuelve.
-              En otra computadora puedes iniciar sesión con la misma cuenta e
-              importar las categorías que elijas después de comparar los datos
-              remotos con los locales.
+              Con la aplicación abierta y conexión a Internet, los cambios se sincronizan
+              automáticamente. Puedes seguir trabajando sin conexión; los cambios pendientes se
+              revisan cuando la red vuelve. En otra computadora puedes iniciar sesión con la misma
+              cuenta e importar las categorías que elijas después de comparar los datos remotos con
+              los locales.
             </p>
           </div>
           <div class="info-panel">
@@ -166,35 +378,29 @@
             <p class="eyebrow">Transparencia</p>
             <h2>Qué acceso pide tu cuenta de Google</h2>
             <p>
-              Para identificar la cuenta, Versenda solicita el identificador,
-              nombre, correo y foto de perfil. Para el respaldo solicita
-              <code>drive.appdata</code>, que permite guardar y recuperar
-              únicamente los archivos de Versenda en la carpeta privada de datos
-              de la aplicación en Google Drive. No pide acceso a tus documentos
-              generales de Drive.
+              Para identificar la cuenta, Versenda solicita el identificador, nombre, correo y foto
+              de perfil. Para el respaldo solicita
+              <code>drive.appdata</code>, que permite guardar y recuperar únicamente los archivos de
+              Versenda en la carpeta privada de datos de la aplicación en Google Drive. No pide
+              acceso a tus documentos generales de Drive.
             </p>
             <p>
-              Los datos de respaldo se usan para sincronizar tu instalación; no
-              se venden ni se usan para publicidad. Puedes dejar de vincular la
-              cuenta en cualquier momento. Consulta la
-              <a href="privacidad.html">política de privacidad</a> para conocer
-              el almacenamiento, los datos de respaldo y tus opciones de
-              control.
+              Los datos de respaldo se usan para sincronizar tu instalación; no se venden ni se usan
+              para publicidad. Puedes dejar de vincular la cuenta en cualquier momento. Consulta la
+              <a href="privacidad.html">política de privacidad</a> para conocer el almacenamiento,
+              los datos de respaldo y tus opciones de control.
             </p>
           </div>
           <div class="info-panel">
             <h3>Antes de instalar</h3>
             <p>
-              Necesitas Windows de 64 bits y Microsoft WebView2 actualizado. La
-              conexión a Internet se usa para descargar recursos y
-              actualizaciones, vincular una cuenta y sincronizar. Las Biblias ya
-              instaladas pueden usarse sin conexión.
+              Necesitas Windows de 64 bits y Microsoft WebView2 actualizado. La conexión a Internet
+              se usa para descargar recursos y actualizaciones, vincular una cuenta y sincronizar.
+              Las Biblias ya instaladas pueden usarse sin conexión.
             </p>
             <p>
               Los instaladores y notas de versión están en
-              <a href="https://github.com/DarNtn/versenda-releases/releases"
-                >GitHub Releases</a
-              >.
+              <a href="https://github.com/DarNtn/versenda-releases/releases">GitHub Releases</a>.
             </p>
           </div>
         </div>
@@ -206,10 +412,9 @@
           Para reportar un problema o sugerir una mejora, abre una
           <a href="https://github.com/DarNtn/versenda-releases/issues"
             >incidencia en el repositorio público</a
-          >. No publiques contraseñas, tokens, correos privados ni contenido
-          personal en una incidencia pública. Para consultas privadas, datos de
-          tu cuenta o solicitudes de privacidad, escribe a
-          <a href="mailto:support@versenda.uk">support@versenda.uk</a>.
+          >. No publiques contraseñas, tokens, correos privados ni contenido personal en una
+          incidencia pública. Para consultas privadas, datos de tu cuenta o solicitudes de
+          privacidad, escribe a <a href="mailto:support@versenda.uk">support@versenda.uk</a>.
         </p>
         <p>
           También puedes leer las
@@ -222,8 +427,7 @@
       <div class="container footer-inner">
         <span>© 2026 Versenda · Proyecto gratuito de DarNtn</span>
         <div>
-          <a href="privacidad.html">Privacidad</a
-          ><a href="terminos.html">Términos</a
+          <a href="privacidad.html">Privacidad</a><a href="terminos.html">Términos</a
           ><a href="preguntas-frecuentes.html">Preguntas frecuentes</a
           ><a href="https://github.com/DarNtn/versenda-releases">Repositorio</a>
         </div>
