@@ -6,7 +6,7 @@
 
 **La Biblia en tu pantalla.**
 
-Versenda es una aplicación gratuita de escritorio para preparar y controlar presentaciones
+Versenda es una aplicación de escritorio con funciones gratuitas y Plus para preparar y controlar presentaciones
 bíblicas y multimedia en iglesias, reuniones y eventos. Abre directamente en la pantalla principal:
 puedes usarla sin cuenta como **Invitado**. Este repositorio público contiene los instaladores,
 notas de versión y archivos de actualizaciones automáticas; el código fuente no se distribuye aquí.
@@ -31,6 +31,7 @@ aplicación para comprobar y verificar actualizaciones.
 - Creación, importación y exportación de cancioneros, con navegación de estrofas por teclado.
 - Biblioteca de fondos con imágenes, videos y recursos importados.
 - Reproducción de videos, páginas web y contenido multimedia en el Visor.
+- **Versenda Plus:** presentación de documentos PDF con recientes, miniaturas, navegación, zoom y rotación independiente por página. El módulo puede explorarse y prepararse en control; una licencia Plus habilita su publicación en el Visor.
 - Reproducción de archivos locales de audio y video con directorios actualizables y nuevos controles.
 - Dinámicas bíblicas participativas con tableros responsivos, tamaños configurables, puntajes iniciales y bancos de preguntas.
 - Notas, anuncios programados, reloj, cronómetro y cuenta regresiva.

@@ -203,6 +203,33 @@ body {
   letter-spacing: 0.08em;
 }
 
+.plus-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 13px 7px;
+  padding: 5px 8px;
+  color: #654200;
+  border: 1px solid #dfad0d;
+  border-radius: 999px;
+  background: #fff4b8;
+  font-size: 0.72rem;
+  font-weight: 900;
+  line-height: 1;
+  vertical-align: top;
+}
+
+.plus-label svg {
+  width: 17px;
+  height: 13px;
+  overflow: visible;
+  fill: #f8c928;
+  stroke: #875900;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.4;
+}
+
 .feature-copy h3 {
   margin: 0 0 10px;
   color: #08255c;
@@ -261,6 +288,90 @@ body {
 .feature-shot:focus-visible {
   outline: 3px solid #2a8cdf;
   outline-offset: 3px;
+}
+
+.feature-shot--document {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18% minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) 15%;
+  min-height: 340px;
+  padding: 22px;
+  gap: 16px;
+  background: linear-gradient(145deg, #172533, #304861);
+}
+
+.document-demo__rail {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+
+.document-demo__rail i {
+  display: block;
+  aspect-ratio: 0.72;
+  border: 3px solid #ffffff35;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: inset 0 0 0 9px #e9eef5;
+}
+
+.document-demo__page {
+  position: relative;
+  justify-self: center;
+  width: min(72%, 330px);
+  aspect-ratio: 0.72;
+  padding: 15% 12%;
+  background: #fff;
+  box-shadow: 0 15px 30px #0006;
+}
+
+.document-demo__page > span {
+  display: block;
+  height: 5%;
+  margin-bottom: 8%;
+  border-radius: 99px;
+  background: #bec9d8;
+}
+
+.document-demo__page > span:nth-child(2),
+.document-demo__page > span:nth-child(5) {
+  width: 74%;
+}
+
+.document-demo__page b {
+  position: absolute;
+  inset: 25% 9% 20%;
+  display: grid;
+  place-items: start;
+  padding: 5px;
+  color: #3f2a00;
+  border: 4px solid #f8c928;
+  background: #f8c92817;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+}
+
+.document-demo__controls {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 9px;
+  background: #ffffff13;
+}
+
+.document-demo__controls i {
+  width: 18%;
+  height: 8px;
+  border-radius: 99px;
+  background: #ffffff70;
+}
+
+.document-demo__controls i:nth-child(2) {
+  width: 38%;
+  background: #f8c928;
 }
 
 .showcase-pagination {

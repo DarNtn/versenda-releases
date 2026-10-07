@@ -86,5 +86,12 @@ document.querySelectorAll('[data-carousel]').forEach((carousel) => {
   document.addEventListener('visibilitychange', restartRotation)
   reducedMotion.addEventListener('change', restartRotation)
 
-  show(0)
+  function showHashTarget() {
+    const target = window.location.hash.slice(1)
+    const requested = target ? slides.findIndex((slide) => slide.id === target) : -1
+    show(requested >= 0 ? requested : 0)
+  }
+
+  window.addEventListener('hashchange', showHashTarget)
+  showHashTarget()
 })
